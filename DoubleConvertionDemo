@@ -1,0 +1,51 @@
+package convertionpackage;
+
+public class DoubleConvertionDemo {
+
+	public static void main(String[] args) {
+
+		// Converting int to double by using explicitly and implicitly
+		int a = 100;
+		double d1 = (double) a; // Explicitly-107
+		System.out.println("Explicit convertion of double : "+d1);
+
+		double d2 = a; // Implicitly
+		System.out.println("Implicit convertion of double : "+d2);
+
+		// Converting double to int-108
+		double d = 12.0765;
+		int intvalue1 = (int) d;
+		System.out.println("Convertion of double to int : "+intvalue1);
+
+		// Converting double to float-109
+		float f = (float) d;
+		System.out.println("Convertion of double to float : "+f);
+
+		// Converting byte to int and vice verse -110 &111
+		byte b = 7;
+		int intbyte = b;
+		System.out.println("Convertion of byte to int : "+intbyte);
+
+		byte bytevalue = (byte) intbyte;
+		System.out.println("Convertion of int to byte : "+bytevalue);
+
+		// convert int into byte where int value is 10000 -112
+		int ivalue = 10000;
+		byte b1 = (byte) ivalue;
+		System.out.println("Convertion of intval to byte : "+b1);
+		
+		//short to int and byte - 113 and 114
+		short shortvalue=128;
+		byte byteshort=(byte) shortvalue;
+		System.out.println("Convertion of shortvalue to bytevalue : "+byteshort);
+		
+		int intvalue2=shortvalue;
+		System.out.println("Convertion of shortvalue to intvalue : "+intvalue2);
+		
+		// Converting float to double -115
+		double doutofloat = f;
+		System.out.println("Convertion of float to doublevalue : "+doutofloat);
+
+	}
+
+}
